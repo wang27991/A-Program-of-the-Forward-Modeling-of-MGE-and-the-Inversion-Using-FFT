@@ -6,20 +6,18 @@ Usage
 
 Choose one of the following:
 % Open and modify A_the MGE.m 
-bbb = 'your_data_identifier'; 
-% Must match your data files nz = 20; 
-% Vertical grid cells zmin = -3000; 
-% Model bottom depth (meters)
+bbb = 'your_data_identifier'; % Must match your data files 
+nz = 20; % Vertical grid cells 
+zmin = -3000; % Model bottom depth (meters)
 
 % Run preprocessing run('A_the MGE.m');
 
 This generates GgF{identifier}.mat containing the Fourier-transformed kernel matrix.
 
 % Open and modify B_main_inv_fft.m 
-bbb = 'your_data_identifier'; 
-% Must match preprocessing zmin = -10000; 
-% Inversion model bottom depth Itermax = 100; 
-% Maximum iterations
+bbb = 'your_data_identifier'; % Must match preprocessing 
+zmin = -10000; % Inversion model bottom depth 
+Itermax = 100; % Maximum iterations
 % Run inversion run('B_main_inv_fft.m');
 
 OUTPUT FILES :
