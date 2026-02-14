@@ -20,11 +20,17 @@ zmin = -10000; % Inversion model bottom depth
 Itermax = 100; % Maximum iterations
 % Run inversion run('B_main_inv_fft.m');
 
+How to Launch the Test:
+Open the quick_test.m and run it.
+%%Confirm that you have put all files into one package.
+
+
 OUTPUT FILES :
 
 .mat> containing the Fourier-transformed kernel matrix. <gravinv30_20_10_inv>.txt --> 3D inversion result
 
 Who do I talk to? Guoqing Ma, Jilin University *** maguoqing@jlu.edu.cn
+
 
 
 tips:All the test files have been provided in the repository. Download all the files into one package and run them in order as per the instructions in the Readme.
